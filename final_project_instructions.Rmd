@@ -85,7 +85,7 @@ See the details of each of these datasets in the Snacks Datasets section
 
 ## The Snacks Datasets
 
-### `food_train.csv` and `food_test.csv`
+### 1. `food_train.csv` and `food_test.csv`
 
 ```{r, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -114,7 +114,9 @@ food_test <- read_csv("data/food_test.csv")
 colnames(food_test)
 ```
 
-### `nutrients.csv`
+\newpage
+
+### 2. `nutrients.csv`
 
 ```{r, message=FALSE, warning=FALSE}
 nutrients <- read_csv("data/nutrients.csv")
@@ -128,7 +130,8 @@ The table for the various nutrients found in snacks.
 * `name`: Nutrient name
 * `unit_name`: The standard unit of measure for the nutrient (per 100g of food)
 
-### `food_nutrients.csv`
+
+### 3. `food_nutrients.csv`
 
 ```{r, message=FALSE, warning=FALSE}
 food_nutrients <- read_csv("data/food_nutrients.csv")
@@ -144,13 +147,14 @@ A *long* table, each snack may appear in multiple rows, with its multiple nutrie
 
 This table has data on both train and test snacks.
 
-### train and test images for all snack products
+
+### 4. train and test images for all snack products
 
 *Email me for a link to the set of over 35K images, ~225MB when unzipped*
 
 * Each snack has an image, the image is its `idx`, e.g. "1.jpg" for snack with `idx == 1`
 * Each snack's image comes from automatically scraping Google Images and downloading the first result
-* A manual scanning got rid of completely useless images, but this does NOT mean the images are all accurate and the images are "perfect"
+* A manual scanning got rid of completely useless images, but this does NOT mean the images are all accurate and "perfect"
 * At least one of the images dimensions is 140 pixels, most are 140x140
 * Which "completely useless" images (and their snacks) were discarded? For example in the cookies category, there were images of:
   - logos
@@ -268,3 +272,8 @@ food_test %>%
   write_csv("model01.csv")
 ```
 
+
+Good Luck!
+
+
+Giora Simchoni.
