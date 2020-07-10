@@ -69,7 +69,6 @@ In our dataset there are ~35K snacks products (train and test combined), in 6 ca
 * Cookies & Biscuits
 * Chips, Pretzels & Snacks
 * Chocolate
-* Snack, Energy & Granola Bars
 * Cakes, Cupcakes, Snack Cakes
 
 And the data contains 4 datasets:
