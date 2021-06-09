@@ -1,5 +1,5 @@
 ---
-title: "DSApps 2020 @ TAU: Final Project"
+title: "DSApps 2021 @ TAU: Final Project"
 author: "Giora Simchoni"
 date: "`r Sys.Date()`"
 output: 
@@ -42,7 +42,7 @@ Please read through instructions and note that although the instructions were wr
 * Length limitations:
   - Both parts: at least 5 pdf pages EACH, no more than 15 EACH, including all plots and tables
 
-The project is due: 8/8 23:59
+The project is due: 1/8 23:59
 
 \newpage
 
@@ -186,7 +186,7 @@ food_train %>% filter(idx == 641) %>% select(brand, description)
 
 ![](images/641.jpg)
 
-It is a not so good image because this is isn't the brand specified, Lay's is a very well known default-like brand for potato chips. It still says "potato chips", therefore the image and snack were not discarded.
+It is a not so good image because this isn't the brand specified, Lay's is a very well known default-like brand for potato chips. It still says "potato chips", therefore the image and snack were not discarded.
 
 \newpage
 
@@ -204,9 +204,9 @@ Some tips:
 
 ## Prediction
 
-In the [Price is Right!](https://github.com/DSApps-2020/HW6) competition (for which you are still welcome to submit predictions!) you had to predict the log-price of Women's shoes.
+In the [Price is Right!](https://github.com/DSApps-2021/HW6) competition you had to predict the log-price of women's shoes.
 
-This. Is Classification.
+This. Is Classification. The metric. Is accuracy.
 
 And, we have 6 classes as you've seen. You're probably anxious to see the class distribution:
 
