@@ -1,12 +1,10 @@
-FROM rocker/tidyverse:4.0.3
+FROM rocker/tidyverse:4.1.2
 
-RUN apt-get update -qq && apt-get -y --no-install-recommends install \
-  libpython3-dev \
-  python3-pip \
-  && install2.r --error \
+RUN install2.r --error \
     --deps TRUE \
-    reticulate \
-	  tidymodels \
+    ggmosaic \
+    glue \
+    tidymodels \
     glmnet \
     randomForest \
     kernlab
