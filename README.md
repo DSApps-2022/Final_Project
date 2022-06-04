@@ -1,6 +1,6 @@
 <img src="images/DSApps_logo_small.jpg" align="right" />
 
-# DSApps @ TAU 2021: Final Project
+# DSApps @ TAU 2022: Final Project
 
 ### Welcome to the Final Project!
 
